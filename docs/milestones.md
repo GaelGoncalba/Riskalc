@@ -2,8 +2,8 @@
 
 ### [M0] Milestone 0: Fundamentos del proyecto
 - **Descripción:** Investigar las Historias de Usuario para definir los elementos de los que consta el dominio del problema. 
-- **Entregable:** Código que represente los elementos del dominio del problema.  
-- **Viabilidad:** Se considerará validado cuando el equipo de desarrollo y revisión comprenda y defina los elementos del dominio del problema, lenguaje, estructura y lógica de negocio. 
+- **Entregable:** Modelo inicial del dominio del problema recogido en las dos historias de usuario, con los conceptos clave y sus relaciones, definiendo las entidades y agregados necesarios para desarrollar el PMV. Se entregará en forma de código fuente.  
+- **Viabilidad:** Se considerará validado cuando el equipo de desarrollo y revisión comprenda y defina los elementos del dominio del problema, recogido en las historias de usuario.
 
 ---
 
