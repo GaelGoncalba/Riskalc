@@ -1,11 +1,14 @@
 ## Historias de Usuario (User Stories)
 
-### [HU1]: Ana, Analista de Riesgos Financieros
-Soy Ana, trabajo en un banco y soy una de las encargadas de atender a los clientes que buscan pedir un préstamo. Cada cliente tiene una situación económica distinta y, a menudo, tomar una decisión sobre si tiene la solvencia suficiente como para devolverlo se vuelve una labor diícil. Para ello utilizo una hoja de excel con el historial de préstamos anteriores y cuáles de ellos se han pagado. El proceso es complejo y lento, pues debo ir comparando una a una las características de cada operación con la nueva que me solicitan hasta encontrar una lo suficientemente parecida como para usarla de referencia. Necesito una fórmula que me permita estimar el porcentaje de préstamos con características similares que han resultado pagados.
----
-
-### [HU2]: Luis, Gestor de Riesgos
-Soy Luis, trabajo en un banco y a diario debo atender a clientes que vienen pidiendo préstamos. Para almacenar sus datos he de ir anotándolos manualmente en papel, de manera que cuando la operación venza, deberé volver a introducirlos en la base de datos de nuestro sistema. Necesito una forma de pasar al sistema los datos de manera sencilla y poder marcar posteriormente si se ha pagado o no.
+### [HU1]: Carlos, director de riesgos
+En mi departamento cuento con una serie de empleados que se encargan de atender a los clientes que vienen pidiendo un préstamo, para ello deben recoger sus datos manualmente y, haciendo uso de operaciones pasadas de la base de datos, deberán ver si esa operación es similar a otras cuyos datos como el sueldo o las deudas sean parecidos. Si encuentran varias con una equivalencia considerable que hayan sido pagadas se concede el préstamo. 
 
 ---
 
+### [HU2]: Carlos, director de riesgos
+A menudo, cuando mis empleados toman decisiones acerca de si conceder un préstamo o no, se producen discrepancias debido a la poca exactitud que presenta el mecanismo que siguen. Cada uno toma unas operaciones históricas diferentes cuyos valores pueden ser similares, a diferencia del resultado, y que esto sea debido a otro factor. Deberían estar prestando atención a todo el historial de operaciones pero eso no es humanamente posible.
+
+---
+
+### [HU3]: Carlos, director de riesgos
+Todo el proceso que siguen mis empleados, tanto para calcular si será viable una operación como el almacenamiento de la misma, se realiza de forma manual, accediendo a la base de datos y cambiando los valores individualmente. Esto se vuelve tedioso y bastante propenso a errores.
