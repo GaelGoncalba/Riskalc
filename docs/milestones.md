@@ -7,15 +7,15 @@
 
 ---
 
-### [M1] Milestone 1: Implementación del cálculo de la fórmula en base a operaciones pasadas
-- **Descripción:** Desarrollar un mecanismo que extraiga una fórmula que permita calcular de manera mecánica la probabilidad que tiene un préstamo de ser pagado a partir datos históricos de préstamos pasados.
-- **Entregable:** Código encargado extraer la fórmula.
-- **Viabilidad:** Se realizará un análisis estadístico mediante test para asegurar que la fórmula ofrece resultados consistentes y coherentes.
+### [M1] Milestone 1: Unificación de criterios de cálculo de riesgo
+- **Descripción:** Implementar un mecanismo capaz de comparar los parámetros de un nuevo préstamo con los de las operaciones recogidas en el historial, para asignarle un grupo de "operaciones considerablemente similares".
+- **Entregable:** Código encargado de realizar el algoritmo de clustering.
+- **Viabilidad:** Se realizará un análisis mediante test para asegurar que el nivel de coincidencia de las operaciones pasadas con la nueva supera el umbral establecido.
 
 ---
 
-### [M2] Milestone 2: Implementación de la automatización del cálculo del riesgo
-- **Descripción:** Implementar la automatización del cálculo de riesgo en la aplicación, ofreciendo resultados precisos de manera rápida y uniforme, directamente desde el sistema.
+### [M2] Milestone 2: Automatización del cálculo del riesgo
+- **Descripción:** Implementar la automatización del cálculo del riesgo a partir de las operaciones introducidas en el cluster asignado, estudiando cuántas de ellas resultaron pagadas.
 - **Entregable:** Versión funcional del código con la lógica de cálculo de riesgos integrada.
 - **Viabilidad:** Se considerará validado cuando se pasen los test propuestos.
 
