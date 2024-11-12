@@ -1,8 +1,8 @@
 # Riskalc - Milestones del Proyecto
 
-### [M0] Milestone 0: Fundamentos del proyecto
-- **Descripción:** Definir los elementos de los que consta el dominio del problema. 
-- **Entregable:** Modelo inicial del dominio del problema recogido en las dos historias de usuario, con los conceptos clave y sus relaciones, definiendo las entidades y agregados necesarios para desarrollar el PMV. Se entregará en forma de código fuente.  
+### [M0] Milestone 0: Definición del problema
+- **Descripción:** Definir los conceptos clave del dominio del problema sobre la unificación de criterios del cálculo de riesgos, así como las diferentes entidades que forman parte del mismo y sus relaciones. 
+- **Entregable:** Modelo inicial del problema recogido, con los conceptos clave y sus relaciones, definiendo las entidades y agregados necesarios para desarrollar el PMV. Se entregará en forma de código fuente.  
 - **Viabilidad:** Se considerará validado cuando el equipo de desarrollo y revisión comprenda y defina los elementos del dominio del problema, recogido en las historias de usuario.
 
 ---
