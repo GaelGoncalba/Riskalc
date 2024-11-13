@@ -20,7 +20,3 @@
 - **Viabilidad:** Se considerará validado cuando se pasen los test propuestos.
 
 ---
-
-## Milestones adicionales:
-
-### [M3] Milestone 3: Implementar el filtrado de operaciones en el historial 
