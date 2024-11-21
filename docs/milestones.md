@@ -7,10 +7,10 @@
 
 ---
 
-### [M1] Milestone 1: Implementación del algoritmo  
-- Implementar el módulo de código encargado de aplicar un algoritmo que extraiga un porcentaje de operaciones pagadas que sean similares a la introducida.
+### [M1] Milestone 1: Procesado de operaciones históricas
+- Módulo de código encargado de mecanizar el proceso descrito en la HU1, basándose en el modelo obtenido del milestone 0.
 
-- Se realizará un análisis mediante test que verifique si efectivamente el producto entregado es capaz de agrupar las operaciones del historial similares a la nueva y extraer un valor que exprese la probabilidad de que la operación resulte pagada.
+- Se considerará viable cuando el producto entregado resuelva el problema que describe la HU1.
 
 ---
 
