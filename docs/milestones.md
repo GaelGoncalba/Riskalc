@@ -7,8 +7,8 @@
 
 ---
 
-### [M1] Milestone 1: Procesado de operaciones históricas
-- Módulo de código encargado de mecanizar el proceso descrito en la HU1, basándose en el modelo obtenido del milestone 0.
+### [M1] Milestone 1: Implementación de la lógica de negocio
+- Módulo de código encargado de aplicar la lógica de negocio sobre el proceso descrito en la HU1, basándose en el modelo obtenido del milestone 0.
 
 - Se considerará viable cuando el producto entregado resuelva el problema que describe la HU1.
 
