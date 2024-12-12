@@ -1,0 +1,12 @@
+lenguaje: go
+entidades:
+  - nombre: Operacion
+    archivo: internal/models/operacion.go
+  - nombre: Cliente
+    archivo: internal/models/cliente.go
+  - nombre: Criterio
+    archivo: internal/models/criterio.go
+  - nombre: GestorRiesgos
+    archivo: internal/gestor_riesgos.go
+  - nombre: Comparador
+    archivo: internal/comparador.go
