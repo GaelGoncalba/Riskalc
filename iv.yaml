@@ -1,12 +1,12 @@
 lenguaje: go
 entidad:
-  - nombre: Operacion
+  - nombre: operacion
     archivo: internal/models/operacion.go
-  - nombre: Cliente
+  - nombre: cliente
     archivo: internal/models/cliente.go
-  - nombre: Criterio
+  - nombre: criterio
     archivo: internal/models/criterio.go
-  - nombre: GestorRiesgos
+  - nombre: gestorriesgos
     archivo: internal/gestor_riesgos.go
-  - nombre: Comparador
+  - nombre: comparador
     archivo: internal/comparador.go
