@@ -1,5 +1,5 @@
 lenguaje: go
-entidades:
+entidad:
   - nombre: Operacion
     archivo: internal/models/operacion.go
   - nombre: Cliente
