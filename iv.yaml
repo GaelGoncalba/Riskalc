@@ -1,3 +1,2 @@
 lenguaje: go
-entidad: internal/models/operacion.go
-entidad: internal/models/cliente.go
+entidad: internal/gestor_riesgos.go
