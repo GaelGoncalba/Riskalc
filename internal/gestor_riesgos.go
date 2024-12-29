@@ -9,12 +9,12 @@ import (
 
 type GestorRiesgos struct {
 	CriteriosEvaluacion models.Criterio
-	Cliente             models.Cliente
+	Clientes            []models.Cliente
 }
 
 func NuevoGestor(criterio models.Criterio, cliente models.Cliente) *GestorRiesgos {
 	return &GestorRiesgos{
 		CriteriosEvaluacion: criterio,
-		Cliente:             cliente,
+		Clientes:            []models.Cliente{},
 	}
 }
