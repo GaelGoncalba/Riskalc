@@ -5,17 +5,17 @@ import (
 )
 
 type Cliente struct {
-	ID               string
+	DNI		 string
 	Sueldo           float64
 	Deudas           float64
 	OperacionHistorial []Operacion
 }
 
 // Validaciones al crear un nuevo cliente
-func NewCliente(id string, sueldo, deudas float64) (Cliente, error) {
+func NewCliente(dni string, sueldo, deudas float64) (Cliente, error) {
 	// ID no vacio
-	if id == "" {
-		return Cliente{}, errors.New("el ID no puede estar vacio")
+	if dni == "" {
+		return Cliente{}, errors.New("el DNI no puede estar vacio")
 	}
 
 	// Sueldo no negativo
@@ -30,7 +30,7 @@ func NewCliente(id string, sueldo, deudas float64) (Cliente, error) {
 
 	// Crear y devolver un nuevo cliente
 	return Cliente{
-		ID:               id,
+		DNI:              dni,
 		Sueldo:           sueldo,
 		Deudas:           deudas,
 		OperacionHistorial: []Operacion{}, // Inicializar el historial vacio
