@@ -8,13 +8,15 @@ import (
 )
 
 type GestorRiesgos struct {
-	Clientes            []models.Cliente
-	Operaciones	    []models.Operacion
+	Cliente             models.Cliente
+	NuevaOperacion      models.Operacion
+	OperacionesHistoricas []models.Operacion
 }
 
-func NuevoGestor(cliente models.Cliente) *GestorRiesgos {
+func NuevoGestor(cliente models.Cliente, nuevaOperacion models.Operacion) *GestorRiesgos {
 	return &GestorRiesgos{
-		Clientes:            []models.Cliente{},
-		Operaciones:         []models.Operacion{},
-	}
+		Clientes:            	cliente,
+		OperacionesHistoricas:  cliente.OperacionHistorial,
+		NuevaOperacion:		nuevaOperacion,
+	}, nil
 }
