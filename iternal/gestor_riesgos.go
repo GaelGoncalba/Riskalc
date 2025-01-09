@@ -15,7 +15,7 @@ type GestorRiesgos struct {
 
 func NuevoGestor(cliente models.Cliente, nuevaOperacion models.Operacion) *GestorRiesgos {
 	return &GestorRiesgos{
-		Clientes:            	cliente,
+		Cliente:            	cliente,
 		OperacionesHistoricas:  cliente.OperacionHistorial,
 		NuevaOperacion:		nuevaOperacion,
 	}, nil
