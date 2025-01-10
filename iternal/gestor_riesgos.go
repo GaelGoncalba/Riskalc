@@ -13,10 +13,10 @@ type GestorRiesgos struct {
 	OperacionesHistoricas []models.Operacion
 }
 
-func NuevoGestor(cliente models.Cliente, nuevaOperacion models.Operacion) *GestorRiesgos {
+func NuevoGestor(cliente models.Cliente, nuevaOperacion models.Operacion, operacionesHistoricas []models.Operacion) *GestorRiesgos {
 	return &GestorRiesgos{
 		Cliente:            	cliente,
-		OperacionesHistoricas:  cliente.OperacionHistorial,
 		NuevaOperacion:		nuevaOperacion,
+		OperacionesHistoricas:  operacionesHistoricas,
 	}, nil
 }
