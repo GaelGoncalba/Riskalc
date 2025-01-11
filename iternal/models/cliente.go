@@ -1,4 +1,3 @@
-- cliente.go:
 package models
 
 import (
