@@ -9,12 +9,12 @@ import (
 
 type GestorRiesgos struct {
 	NuevaOperacion        models.Operacion
-	OperacionesHistoricas map[string]models.Cliente
+	Clientes	      map[string]models.Cliente
 }
 
-func NuevoGestor(nuevaOperacion models.Operacion, operacionesHistoricas map[string]models.Cliente) *GestorRiesgos {
+func NuevoGestor(nuevaOperacion models.Operacion, clientes map[string]models.Cliente) *GestorRiesgos {
 	return &GestorRiesgos{
 		NuevaOperacion:		nuevaOperacion,
-		OperacionesHistoricas:  operacionesHistoricas,
+		Clientes:  		clientes,
 	}, nil
 }
