@@ -5,20 +5,20 @@ import (
 )
 
 type Cliente struct {
-	DNI		   string
+	ID		   string
 	OperacionHistorial map[string]Operacion
 }
 
 // Validaciones al crear un nuevo cliente
-func NewCliente(dni string) (Cliente, error) {
+func NewCliente(id string) (Cliente, error) {
 	// ID no vacio
-	if dni == "" {
-		return Cliente{}, errors.New("el DNI no puede estar vacio")
+	if id == "" {
+		return Cliente{}, errors.New("el ID no puede estar vacio")
 	}
 
 	// Crear y devolver un nuevo cliente
 	return Cliente{
-		DNI:                dni,
+		ID:                 id,
 		OperacionHistorial: make(map[string]Operacion), // Inicializar el historial como map vacio
 	}, nil
 }
