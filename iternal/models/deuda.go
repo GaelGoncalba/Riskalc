@@ -16,6 +16,6 @@ func NuevaDeuda(valor1 float64) (Deuda, error) {
 	}
   
 	return Deuda{
-    Valor: valor1
+    valor: valor1
   }, nil
 }
