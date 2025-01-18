@@ -5,17 +5,17 @@ import (
 )
 
 type Deuda struct {
-	Valor float64
+	valor float64
 }
 
 // Validaciones al crear una nueva deuda
-func NuevaDeuda(valor float64) (Deuda, error) {
+func NuevaDeuda(valor1 float64) (Deuda, error) {
   // deuda no negativa
-	if valor < 0 {
+	if valor1 < 0 {
 		return Deuda{}, errors.New("la deuda no puede ser negativa")
 	}
   
 	return Deuda{
-    Valor: valor
+    Valor: valor1
   }, nil
 }
